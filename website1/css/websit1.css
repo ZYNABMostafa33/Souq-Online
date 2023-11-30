@@ -1,0 +1,235 @@
+.parent{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    overflow: auto;
+}
+.div{
+    float: right;
+    margin-right: 70px;
+}
+.parent img{
+    width: 100px;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-radius: 50%;
+   
+}
+.div li{
+    list-style-type:none ;
+    display: inline;
+    color: #f2eaea;
+    font-size: 40px;
+    font-weight:bold ;
+    margin-right: 40px;
+    line-height: 100px;
+}
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+} 
+
+.div1{
+    position: relative;
+}
+.img1{
+    background-color: black;
+    width: 350px;
+    height: 500px;
+    position: absolute; 
+}
+.img1 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+    line-height: 300px;
+    margin-top: 20px;
+}
+.t{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    color: aliceblue;
+}
+.text1 h2{
+    text-align:center;
+    margin-top: 430px;
+}
+.text2 h3{
+    text-align:center;
+    margin-top: 460px;
+
+}
+.div1:hover .p1{
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+}
+.text{
+    color: #e81313;
+    text-align:center;
+    margin-top: 420px;
+    visibility: hidden;
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    margin-left: 70px;
+}
+.div1:hover .text{
+    visibility: visible;
+}
+.p1 a{
+    background-color: rgb(185, 163, 205);
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    border: 2px solid white;
+    line-height: 20px;
+    margin-left: auto;
+    display: block;
+    width: 70px;
+    height: 20px;
+}
+.p1{
+    background-color: rgba(51, 33, 67,.8);
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+    line-height: 300px;
+    margin-top: 20px;
+}
+
+
+.div2{
+    position: relative;
+}
+.img2{
+    background-color: black;
+    width: 350px;
+    height: 500px;
+    position: absolute; 
+}
+.img2 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+    line-height: 300px;
+    margin-top: 20px;
+}
+.t1{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    color: aliceblue;
+}
+.text3 h2{
+    text-align:center;
+    margin-top: 430px;
+}
+.text4 h3{
+    text-align:center;
+    margin-top: 460px;
+}
+.div2:hover .p2{
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+}
+.p2 a{
+    background-color: rgb(185, 163, 205);
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    border: 2px solid white;
+    line-height: 20px;
+    margin-left: auto;
+    display: block;
+    width: 70px;
+    height: 20px;
+}
+.p2{
+    background-color: rgba(51, 33, 67,.8);
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+    line-height: 300px;
+    margin-top: 20px;
+}
+
+
+.div3{
+    position: relative;
+}
+.img3{
+    background-color: black;
+    width: 350px;
+    height: 500px;
+    position: absolute; 
+}
+.img3 img{
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+    line-height: 300px;
+    margin-top: 20px;
+}
+.t3{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    color: aliceblue;
+}
+.text5 h2{
+    text-align:center;
+    margin-top: 430px;
+}
+.text6 h3{
+    text-align:center;
+    margin-top: 460px;
+}
+.div3:hover .p3{
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+}
+.p3 a{
+    background-color: rgb(185, 163, 205);
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    border: 2px solid white;
+    line-height: 20px;
+    margin-left: auto;
+    display: block;
+    width: 70px;
+    height: 20px;
+}
+.p3{
+    background-color: rgba(51, 33, 67,.8);
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    width: 300px;
+    height: 400px;
+    margin-left: 25px;
+    line-height: 300px;
+    margin-top: 20px;
+}
+.wrapper{
+    margin-top: 50px;
+}
+
+.div1{
+    margin-left: 100px;
+}
+.div2{
+    margin-left: 550px;
+}
+.div3{
+    margin-left: 1000px;
+}
